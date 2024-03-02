@@ -16,8 +16,8 @@ FORMAT_OPTIONS =
 ## Use pandoc-crossref (https://github.com/lierdakil/pandoc-crossref)
 FILTERS += --filter pandoc-crossref
 ###
-PDF_ENGINE += --pdf-engine=xelatex --pdf-engine-opt=--shell-escape
-OPTIONS += --number-sections
+PDF_ENGINE += --pdf-engine=lualatex  --pdf-engine-opt=--shell-escape
+OPTIONS += --number-sectionsss
 BIB_OPTIONS = --citeproc
 
 
